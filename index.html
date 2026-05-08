@@ -1,108 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Kris Pia Portfolio</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0d1117;
-      color: #c9d1d9;
-      text-align: center;
-    }
-
-    .hero {
-      padding: 100px 20px;
-    }
-
-    h1 {
-      font-size: 48px;
-      color: white;
-    }
-
-    p {
-      font-size: 18px;
-      max-width: 600px;
-      margin: auto;
-      margin-top: 10px;
-    }
-
-    .btn {
-      display: inline-block;
-      margin: 20px 10px;
-      padding: 12px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .green {
-      background: #238636;
-      color: white;
-    }
-
-    .outline {
-      border: 1px solid #c9d1d9;
-      color: #c9d1d9;
-    }
-
-    section {
-      padding: 60px 20px;
-    }
-
-    .card {
-      background: #161b22;
-      margin: 20px auto;
-      padding: 20px;
-      width: 300px;
-      border-radius: 10px;
-    }
-  </style>
-
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <div class="hero">
-    <h1>The future starts with me</h1>
-    <p>
-      Computer Engineering student learning to build systems and real-world applications.
-    </p>
+  <!-- NAVIGATION -->
+  <nav>
+    <h2>MyPortfolio</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <a href="#" class="btn green">Explore</a>
-    <a href="#" class="btn outline">Contact</a>
-  </div>
+  <!-- HERO -->
+  <header>
+    <h1>Your Name</h1>
+    <p>Your short tagline here</p>
+  </header>
 
-  <section>
+  <!-- ABOUT -->
+  <section id="about">
     <h2>About Me</h2>
-    <p>
-      I am a Computer Engineering student passionate about technology and system development.
-      I am currently learning how to build applications and improve my skills step by step.
-    </p>
+    <p>Write a short introduction about yourself.</p>
   </section>
 
-  <section>
+  <!-- SKILLS -->
+  <section id="skills">
     <h2>Skills</h2>
+    <ul>
+      <li>Skill 1</li>
+      <li>Skill 2</li>
+      <li>Skill 3</li>
+    </ul>
+  </section>
 
-    <div class="card">
-      Basic Programming
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Project Title</h3>
+      <p>Short description of your project.</p>
     </div>
 
-    <div class="card">
-      HTML & Web Development (Learning)
-    </div>
-
-    <div class="card">
-      Problem Solving
+    <div class="project">
+      <h3>Project Title</h3>
+      <p>Short description of your project.</p>
     </div>
 
   </section>
 
-  <section>
+  <!-- CONTACT -->
+  <section id="contact">
     <h2>Contact</h2>
-    <p>Email: larga.krispia@marsu.edu.ph</p>
+    <p>Email: your-email@gmail.com</p>
+    <p>GitHub: github.com/yourusername</p>
   </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Your Name</p>
+  </footer>
 
 </body>
 </html>
